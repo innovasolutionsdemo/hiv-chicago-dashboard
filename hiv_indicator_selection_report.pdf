@@ -1,0 +1,714 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 1662 >>
+stream
+BT
+/F1 16 Tf
+72 760 Td (HIV Dashboard Indicator Selection Report) Tj
+0 -28 Td
+/F1 9 Tf
+0 -14 Td (This report documents which candidate indicators are included or excluded from the HIV) Tj
+/F1 9 Tf
+0 -14 Td (correlation heatmaps in the dashboard.) Tj
+/F1 9 Tf
+0 -14 Td (Inclusion rule: indicators are shown when their average absolute Pearson correlation across) Tj
+/F1 9 Tf
+0 -14 Td (HIVI_2019 through HIVI_2023 is >= 0.15.) Tj
+/F1 9 Tf
+0 -14 Td (Interpretation: this is exploratory correlation, not causal proof. Indicators are used to) Tj
+/F1 9 Tf
+0 -14 Td (prioritize patterns for public-health action, follow-up analysis, and policy discussion.) Tj
+/F1 9 Tf
+0 -14 Td (Count-based crime and legal-system measures are retained only in the Community Stress heatmap) Tj
+/F1 9 Tf
+0 -14 Td (and should be read as community stress, enforcement, reporting, and structural-risk proxies) Tj
+/F1 9 Tf
+0 -14 Td (rather than direct causes.) Tj
+0 -10 Td
+/F1 9 Tf
+0 -14 Td (Important exclusions and cautions:) Tj
+/F1 9 Tf
+0 -14 Td (? Weak correlations are excluded from the heatmap because they can distract from stronger) Tj
+/F1 9 Tf
+0 -14 Td (  patterns and invite overinterpretation.) Tj
+/F1 9 Tf
+0 -14 Td (? CDP_2017-2021 is not used as a poverty/deprivation variable because the source dictionary) Tj
+/F1 9 Tf
+0 -14 Td (  identifies it as prostate cancer diagnosis count.) Tj
+/F1 9 Tf
+0 -14 Td (? Race variables are structural context variables. They should be framed as evidence of) Tj
+/F1 9 Tf
+0 -14 Td (  segregation and disinvestment patterns, not as biological or individual-level risk claims.) Tj
+/F1 8 Tf
+0 -18 Td (Threshold: average |r| >= 0.15 | Page 1) Tj
+ET
+endstream
+endobj
+3 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+endobj
+4 0 obj
+<< /Length 2630 >>
+stream
+BT
+/F1 16 Tf
+72 760 Td (Selection Summary) Tj
+0 -28 Td
+/F1 12 Tf
+0 -8 Td (Priority Factors for City Action) Tj
+0 -18 Td
+/F1 9 Tf
+0 -14 Td (Included: 13 indicators. Excluded: 17 indicators.) Tj
+/F1 9 Tf
+0 -14 Td (Highest included signals:) Tj
+/F1 9 Tf
+0 -14 Td (? Owner occupied housing \(%\) \(Housing & neighborhood\): avg |r| 0.440, negative.) Tj
+/F1 9 Tf
+0 -14 Td (? Drug abuse crimes \(Behavioral & community risk\): avg |r| 0.301, positive.) Tj
+/F1 9 Tf
+0 -14 Td (? PM2.5 concentration \(Housing & neighborhood\): avg |r| 0.262, negative.) Tj
+/F1 9 Tf
+0 -14 Td (? Social Engagement Index \(Structural inequity & race\): avg |r| 0.253, negative.) Tj
+/F1 9 Tf
+0 -14 Td (? Primary care provider access \(%\) \(Healthcare access\): avg |r| 0.188, negative.) Tj
+/F1 9 Tf
+0 -14 Td (? Opioid overdose mortality rate \(Behavioral & community risk\): avg |r| 0.186, positive.) Tj
+0 -10 Td
+/F1 12 Tf
+0 -8 Td (Community Stress & Structural Risk) Tj
+0 -18 Td
+/F1 9 Tf
+0 -14 Td (Included: 16 indicators. Excluded: 8 indicators.) Tj
+/F1 9 Tf
+0 -14 Td (Highest included signals:) Tj
+/F1 9 Tf
+0 -14 Td (? Crime - Battery \(Community stress & safety\): avg |r| 0.649, positive.) Tj
+/F1 9 Tf
+0 -14 Td (? Juvenile / youth behavioral indicator \(Community stress & safety\): avg |r| 0.644, positive.) Tj
+/F1 9 Tf
+0 -14 Td (? Youth juvenile court / community outcomes \(Community stress & safety\): avg |r| 0.626,) Tj
+/F1 9 Tf
+0 -14 Td (  positive.) Tj
+/F1 9 Tf
+0 -14 Td (? Crime - Murder / Manslaughter \(Community stress & safety\): avg |r| 0.625, positive.) Tj
+/F1 9 Tf
+0 -14 Td (? Incarceration / drug use / legal involvement \(Structural poverty & opportunity\): avg |r|) Tj
+/F1 9 Tf
+0 -14 Td (  0.610, positive.) Tj
+/F1 9 Tf
+0 -14 Td (? Child poverty / community resource indicator \(Structural poverty & opportunity\): avg |r|) Tj
+/F1 9 Tf
+0 -14 Td (  0.609, positive.) Tj
+0 -10 Td
+/F1 12 Tf
+0 -8 Td (Full Selected Indicator Heatmap) Tj
+0 -18 Td
+/F1 9 Tf
+0 -14 Td (Included: 5 indicators. Excluded: 11 indicators.) Tj
+/F1 9 Tf
+0 -14 Td (Highest included signals:) Tj
+/F1 9 Tf
+0 -14 Td (? PM2.5 concentration \(Housing & neighborhood\): avg |r| 0.262, negative.) Tj
+/F1 9 Tf
+0 -14 Td (? Primary care provider \(%\) \(Healthcare access\): avg |r| 0.188, negative.) Tj
+/F1 9 Tf
+0 -14 Td (? Rent-burdened households \(%\) \(Housing & neighborhood\): avg |r| 0.186, positive.) Tj
+/F1 9 Tf
+0 -14 Td (? Uninsured rate \(%\) \(Healthcare access\): avg |r| 0.177, positive.) Tj
+/F1 9 Tf
+0 -14 Td (? Median household income \(Economic factors\): avg |r| 0.154, negative.) Tj
+0 -10 Td
+/F1 8 Tf
+0 -18 Td (Threshold: average |r| >= 0.15 | Page 2) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 3863 >>
+stream
+BT
+/F1 16 Tf
+72 760 Td (Priority Factors for City Action) Tj
+0 -28 Td
+/F1 12 Tf
+0 -8 Td (Included Indicators \(13\)) Tj
+0 -18 Td
+/F1 9 Tf
+0 -14 Td (? Owner occupied housing \(%\) [Housing & neighborhood]: avg |r| 0.440. Included because avg |r|) Tj
+/F1 9 Tf
+0 -14 Td (  = 0.440, meeting the >= 0.15 exploratory signal threshold. Direction is negative. Housing) Tj
+/F1 9 Tf
+0 -14 Td (  stability / ownership) Tj
+/F1 9 Tf
+0 -14 Td (? Drug abuse crimes [Behavioral & community risk]: avg |r| 0.301. Included because avg |r| =) Tj
+/F1 9 Tf
+0 -14 Td (  0.301, meeting the >= 0.15 exploratory signal threshold. Direction is positive. Drug-related) Tj
+/F1 9 Tf
+0 -14 Td (  enforcement proxy; count, interpret cautiously) Tj
+/F1 9 Tf
+0 -14 Td (? PM2.5 concentration [Housing & neighborhood]: avg |r| 0.262. Included because avg |r| =) Tj
+/F1 9 Tf
+0 -14 Td (  0.262, meeting the >= 0.15 exploratory signal threshold. Direction is negative.) Tj
+/F1 9 Tf
+0 -14 Td (  Environmental exposure) Tj
+/F1 9 Tf
+0 -14 Td (? Social Engagement Index [Structural inequity & race]: avg |r| 0.253. Included because avg) Tj
+/F1 9 Tf
+0 -14 Td (  |r| = 0.253, meeting the >= 0.15 exploratory signal threshold. Direction is negative.) Tj
+/F1 9 Tf
+0 -14 Td (  Civic/social isolation and built environment) Tj
+/F1 9 Tf
+0 -14 Td (? Primary care provider access \(%\) [Healthcare access]: avg |r| 0.188. Included because avg) Tj
+/F1 9 Tf
+0 -14 Td (  |r| = 0.188, meeting the >= 0.15 exploratory signal threshold. Direction is negative.) Tj
+/F1 9 Tf
+0 -14 Td (  Routine access to care) Tj
+/F1 9 Tf
+0 -14 Td (? Opioid overdose mortality rate [Behavioral & community risk]: avg |r| 0.186. Included) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.186, meeting the >= 0.15 exploratory signal threshold. Direction is) Tj
+/F1 9 Tf
+0 -14 Td (  positive. Opioid mortality) Tj
+/F1 9 Tf
+0 -14 Td (? Rent-burdened households \(%\) [Housing & neighborhood]: avg |r| 0.186. Included because avg) Tj
+/F1 9 Tf
+0 -14 Td (  |r| = 0.186, meeting the >= 0.15 exploratory signal threshold. Direction is positive.) Tj
+/F1 9 Tf
+0 -14 Td (  Housing affordability stress) Tj
+/F1 9 Tf
+0 -14 Td (? Drug overdose mortality rate [Behavioral & community risk]: avg |r| 0.181. Included because) Tj
+/F1 9 Tf
+0 -14 Td (  avg |r| = 0.181, meeting the >= 0.15 exploratory signal threshold. Direction is positive.) Tj
+/F1 9 Tf
+0 -14 Td (  Drug-related mortality) Tj
+/F1 9 Tf
+0 -14 Td (? Social Vulnerability Index [Housing & neighborhood]: avg |r| 0.177. Included because avg |r|) Tj
+/F1 9 Tf
+0 -14 Td (  = 0.177, meeting the >= 0.15 exploratory signal threshold. Direction is positive.) Tj
+/F1 9 Tf
+0 -14 Td (  Neighborhood vulnerability) Tj
+/F1 9 Tf
+0 -14 Td (? Uninsured rate \(%\) [Healthcare access]: avg |r| 0.177. Included because avg |r| = 0.177,) Tj
+/F1 9 Tf
+0 -14 Td (  meeting the >= 0.15 exploratory signal threshold. Direction is positive. Coverage barrier) Tj
+/F1 9 Tf
+0 -14 Td (? Food insecurity \(%\) [Economic factors]: avg |r| 0.176. Included because avg |r| = 0.176,) Tj
+/F1 9 Tf
+0 -14 Td (  meeting the >= 0.15 exploratory signal threshold. Direction is positive. Material hardship) Tj
+/F1 9 Tf
+0 -14 Td (  and basic needs) Tj
+/F1 9 Tf
+0 -14 Td (? Black or African American residents \(%\) [Structural inequity & race]: avg |r| 0.166.) Tj
+/F1 9 Tf
+0 -14 Td (  Included because avg |r| = 0.166, meeting the >= 0.15 exploratory signal threshold.) Tj
+/F1 9 Tf
+0 -14 Td (  Direction is positive. Race concentration proxy; reflects segregation and structural) Tj
+/F1 9 Tf
+0 -14 Td (  context, not individual causation) Tj
+/F1 9 Tf
+0 -14 Td (? Median household income [Economic factors]: avg |r| 0.154. Included because avg |r| = 0.154,) Tj
+/F1 9 Tf
+0 -14 Td (  meeting the >= 0.15 exploratory signal threshold. Direction is negative. Income resources) Tj
+/F1 8 Tf
+0 -18 Td (Threshold: average |r| >= 0.15 | Page 3) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 4016 >>
+stream
+BT
+/F1 16 Tf
+72 760 Td (Priority Factors for City Action \(continued\)) Tj
+0 -28 Td
+0 -10 Td
+/F1 12 Tf
+0 -8 Td (Excluded Indicators \(17\)) Tj
+0 -18 Td
+/F1 9 Tf
+0 -14 Td (? Arts education access and quality \(%\) [Education & opportunity]: avg |r| 0.150. Excluded) Tj
+/F1 9 Tf
+0 -14 Td (  from heatmap because avg |r| = 0.150, below the 0.15 threshold; correlation is too weak or) Tj
+/F1 9 Tf
+0 -14 Td (  unstable for the visual. CPS arts education access/quality) Tj
+/F1 9 Tf
+0 -14 Td (? Poverty rate \(%\) [Economic factors]: avg |r| 0.146. Excluded from heatmap because avg |r| =) Tj
+/F1 9 Tf
+0 -14 Td (  0.146, below the 0.15 threshold; correlation is too weak or unstable for the visual.) Tj
+/F1 9 Tf
+0 -14 Td (  Material hardship) Tj
+/F1 9 Tf
+0 -14 Td (? Hispanic or Latino residents \(%\) [Structural inequity & race]: avg |r| 0.146. Excluded from) Tj
+/F1 9 Tf
+0 -14 Td (  heatmap because avg |r| = 0.146, below the 0.15 threshold; correlation is too weak or) Tj
+/F1 9 Tf
+0 -14 Td (  unstable for the visual. Ethnicity concentration proxy; structural context, not individual) Tj
+/F1 9 Tf
+0 -14 Td (  causation) Tj
+/F1 9 Tf
+0 -14 Td (? White non-Hispanic residents \(%\) [Structural inequity & race]: avg |r| 0.144. Excluded from) Tj
+/F1 9 Tf
+0 -14 Td (  heatmap because avg |r| = 0.144, below the 0.15 threshold; correlation is too weak or) Tj
+/F1 9 Tf
+0 -14 Td (  unstable for the visual. Race/segregation proxy; negative correlation can indicate) Tj
+/F1 9 Tf
+0 -14 Td (  concentration in non-white/disinvested areas) Tj
+/F1 9 Tf
+0 -14 Td (? Primary care physicians per capita [Healthcare access]: avg |r| 0.143. Excluded from heatmap) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.143, below the 0.15 threshold; correlation is too weak or unstable for) Tj
+/F1 9 Tf
+0 -14 Td (  the visual. Provider supply) Tj
+/F1 9 Tf
+0 -14 Td (? Child Opportunity Index - education domain [Education & opportunity]: avg |r| 0.136.) Tj
+/F1 9 Tf
+0 -14 Td (  Excluded from heatmap because avg |r| = 0.136, below the 0.15 threshold; correlation is too) Tj
+/F1 9 Tf
+0 -14 Td (  weak or unstable for the visual. Neighborhood education opportunity for children) Tj
+/F1 9 Tf
+0 -14 Td (? Unemployment rate \(%\) [Economic factors]: avg |r| 0.133. Excluded from heatmap because avg) Tj
+/F1 9 Tf
+0 -14 Td (  |r| = 0.133, below the 0.15 threshold; correlation is too weak or unstable for the visual.) Tj
+/F1 9 Tf
+0 -14 Td (  Job access and labor-market exclusion) Tj
+/F1 9 Tf
+0 -14 Td (? Severely rent-burdened households \(%\) [Housing & neighborhood]: avg |r| 0.126. Excluded from) Tj
+/F1 9 Tf
+0 -14 Td (  heatmap because avg |r| = 0.126, below the 0.15 threshold; correlation is too weak or) Tj
+/F1 9 Tf
+0 -14 Td (  unstable for the visual. Severe housing affordability stress) Tj
+/F1 9 Tf
+0 -14 Td (? Child Opportunity Index [Structural inequity & race]: avg |r| 0.117. Excluded from heatmap) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.117, below the 0.15 threshold; correlation is too weak or unstable for) Tj
+/F1 9 Tf
+0 -14 Td (  the visual. Childhood opportunity / structural investment) Tj
+/F1 9 Tf
+0 -14 Td (? Area Deprivation Index [Economic factors]: avg |r| 0.116. Excluded from heatmap because avg) Tj
+/F1 9 Tf
+0 -14 Td (  |r| = 0.116, below the 0.15 threshold; correlation is too weak or unstable for the visual.) Tj
+/F1 9 Tf
+0 -14 Td (  Neighborhood deprivation including income, education, employment, and housing quality) Tj
+/F1 9 Tf
+0 -14 Td (? Physical inactivity \(%\) [Behavioral & community risk]: avg |r| 0.106. Excluded from heatmap) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.106, below the 0.15 threshold; correlation is too weak or unstable for) Tj
+/F1 9 Tf
+0 -14 Td (  the visual. Behavioral risk marker) Tj
+/F1 9 Tf
+0 -14 Td (? Adult smoking rate \(%\) [Behavioral & community risk]: avg |r| 0.085. Excluded from heatmap) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.085, below the 0.15 threshold; correlation is too weak or unstable for) Tj
+/F1 8 Tf
+0 -18 Td (Threshold: average |r| >= 0.15 | Page 4) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 1697 >>
+stream
+BT
+/F1 16 Tf
+72 760 Td (Priority Factors for City Action \(continued\)) Tj
+0 -28 Td
+/F1 9 Tf
+0 -14 Td (  the visual. Behavioral risk marker) Tj
+/F1 9 Tf
+0 -14 Td (? College graduation rate \(%\) [Education & opportunity]: avg |r| 0.084. Excluded from heatmap) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.084, below the 0.15 threshold; correlation is too weak or unstable for) Tj
+/F1 9 Tf
+0 -14 Td (  the visual. Adult educational attainment) Tj
+/F1 9 Tf
+0 -14 Td (? Adult obesity rate \(%\) [Behavioral & community risk]: avg |r| 0.082. Excluded from heatmap) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.082, below the 0.15 threshold; correlation is too weak or unstable for) Tj
+/F1 9 Tf
+0 -14 Td (  the visual. Behavioral risk marker) Tj
+/F1 9 Tf
+0 -14 Td (? High school graduation rate \(%\) [Education & opportunity]: avg |r| 0.074. Excluded from) Tj
+/F1 9 Tf
+0 -14 Td (  heatmap because avg |r| = 0.074, below the 0.15 threshold; correlation is too weak or) Tj
+/F1 9 Tf
+0 -14 Td (  unstable for the visual. Adult educational attainment) Tj
+/F1 9 Tf
+0 -14 Td (? Preventive care routine checkup \(%\) [Healthcare access]: avg |r| 0.073. Excluded from) Tj
+/F1 9 Tf
+0 -14 Td (  heatmap because avg |r| = 0.073, below the 0.15 threshold; correlation is too weak or) Tj
+/F1 9 Tf
+0 -14 Td (  unstable for the visual. Prevention engagement) Tj
+/F1 9 Tf
+0 -14 Td (? Preschool enrollment \(%\) [Education & opportunity]: avg |r| 0.069. Excluded from heatmap) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.069, below the 0.15 threshold; correlation is too weak or unstable for) Tj
+/F1 9 Tf
+0 -14 Td (  the visual. Early education access) Tj
+/F1 8 Tf
+0 -18 Td (Threshold: average |r| >= 0.15 | Page 5) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 4066 >>
+stream
+BT
+/F1 16 Tf
+72 760 Td (Community Stress & Structural Risk) Tj
+0 -28 Td
+/F1 12 Tf
+0 -8 Td (Included Indicators \(16\)) Tj
+0 -18 Td
+/F1 9 Tf
+0 -14 Td (? Crime - Battery [Community stress & safety]: avg |r| 0.649. Included because avg |r| =) Tj
+/F1 9 Tf
+0 -14 Td (  0.649, meeting the >= 0.15 exploratory signal threshold. Direction is positive. Crime count;) Tj
+/F1 9 Tf
+0 -14 Td (  use as community safety/enforcement proxy, not direct cause) Tj
+/F1 9 Tf
+0 -14 Td (? Juvenile / youth behavioral indicator [Community stress & safety]: avg |r| 0.644. Included) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.644, meeting the >= 0.15 exploratory signal threshold. Direction is) Tj
+/F1 9 Tf
+0 -14 Td (  positive. Youth behavioral/community stress proxy) Tj
+/F1 9 Tf
+0 -14 Td (? Youth juvenile court / community outcomes [Community stress & safety]: avg |r| 0.626.) Tj
+/F1 9 Tf
+0 -14 Td (  Included because avg |r| = 0.626, meeting the >= 0.15 exploratory signal threshold.) Tj
+/F1 9 Tf
+0 -14 Td (  Direction is positive. Youth justice/community stress proxy) Tj
+/F1 9 Tf
+0 -14 Td (? Crime - Murder / Manslaughter [Community stress & safety]: avg |r| 0.625. Included because) Tj
+/F1 9 Tf
+0 -14 Td (  avg |r| = 0.625, meeting the >= 0.15 exploratory signal threshold. Direction is positive.) Tj
+/F1 9 Tf
+0 -14 Td (  Crime count; use as severe community violence proxy) Tj
+/F1 9 Tf
+0 -14 Td (? Incarceration / drug use / legal involvement [Structural poverty & opportunity]: avg |r|) Tj
+/F1 9 Tf
+0 -14 Td (  0.610. Included because avg |r| = 0.610, meeting the >= 0.15 exploratory signal threshold.) Tj
+/F1 9 Tf
+0 -14 Td (  Direction is positive. Composite structural/legal involvement proxy) Tj
+/F1 9 Tf
+0 -14 Td (? Child poverty / community resource indicator [Structural poverty & opportunity]: avg |r|) Tj
+/F1 9 Tf
+0 -14 Td (  0.609. Included because avg |r| = 0.609, meeting the >= 0.15 exploratory signal threshold.) Tj
+/F1 9 Tf
+0 -14 Td (  Direction is positive. Child poverty/resource proxy) Tj
+/F1 9 Tf
+0 -14 Td (? Environmental air quality / pollution [Health & environment]: avg |r| 0.603. Included) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.603, meeting the >= 0.15 exploratory signal threshold. Direction is) Tj
+/F1 9 Tf
+0 -14 Td (  positive. Environmental exposure proxy) Tj
+/F1 9 Tf
+0 -14 Td (? Youth poverty / vulnerability index [Structural poverty & opportunity]: avg |r| 0.594.) Tj
+/F1 9 Tf
+0 -14 Td (  Included because avg |r| = 0.594, meeting the >= 0.15 exploratory signal threshold.) Tj
+/F1 9 Tf
+0 -14 Td (  Direction is positive. Youth poverty/vulnerability proxy) Tj
+/F1 9 Tf
+0 -14 Td (? Crime - Robbery [Community stress & safety]: avg |r| 0.585. Included because avg |r| =) Tj
+/F1 9 Tf
+0 -14 Td (  0.585, meeting the >= 0.15 exploratory signal threshold. Direction is positive. Crime count;) Tj
+/F1 9 Tf
+0 -14 Td (  use as community safety/enforcement proxy) Tj
+/F1 9 Tf
+0 -14 Td (? Social wellbeing / youth wellness [Health & environment]: avg |r| 0.502. Included because) Tj
+/F1 9 Tf
+0 -14 Td (  avg |r| = 0.502, meeting the >= 0.15 exploratory signal threshold. Direction is positive.) Tj
+/F1 9 Tf
+0 -14 Td (  Youth wellness/social wellbeing proxy) Tj
+/F1 9 Tf
+0 -14 Td (? Racial / income poverty zone indicator [Structural poverty & opportunity]: avg |r| 0.441.) Tj
+/F1 9 Tf
+0 -14 Td (  Included because avg |r| = 0.441, meeting the >= 0.15 exploratory signal threshold.) Tj
+/F1 9 Tf
+0 -14 Td (  Direction is positive. Structural inequity proxy) Tj
+/F1 9 Tf
+0 -14 Td (? ZIP code quality / clinical care index [Access & clinical context]: avg |r| 0.424. Included) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.424, meeting the >= 0.15 exploratory signal threshold. Direction is) Tj
+/F1 9 Tf
+0 -14 Td (  positive. Clinical care quality/access proxy) Tj
+/F1 9 Tf
+0 -14 Td (? Low-access / food access index [Structural poverty & opportunity]: avg |r| 0.398. Included) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.398, meeting the >= 0.15 exploratory signal threshold. Direction is) Tj
+/F1 8 Tf
+0 -18 Td (Threshold: average |r| >= 0.15 | Page 6) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 3709 >>
+stream
+BT
+/F1 16 Tf
+72 760 Td (Community Stress & Structural Risk \(continued\)) Tj
+0 -28 Td
+/F1 9 Tf
+0 -14 Td (  negative. Food access / neighborhood access proxy) Tj
+/F1 9 Tf
+0 -14 Td (? Alcohol / drug problem prevalence [Substance use & mental health]: avg |r| 0.295. Included) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.295, meeting the >= 0.15 exploratory signal threshold. Direction is) Tj
+/F1 9 Tf
+0 -14 Td (  positive. Rate measure preferred over count) Tj
+/F1 9 Tf
+0 -14 Td (? Primary care provider access prevalence [Access & clinical context]: avg |r| 0.188. Included) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.188, meeting the >= 0.15 exploratory signal threshold. Direction is) Tj
+/F1 9 Tf
+0 -14 Td (  negative. Rate measure preferred over count) Tj
+/F1 9 Tf
+0 -14 Td (? Health coverage / insurance prevalence [Access & clinical context]: avg |r| 0.154. Included) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.154, meeting the >= 0.15 exploratory signal threshold. Direction is) Tj
+/F1 9 Tf
+0 -14 Td (  negative. Rate measure preferred over count) Tj
+0 -10 Td
+/F1 12 Tf
+0 -8 Td (Excluded Indicators \(8\)) Tj
+0 -18 Td
+/F1 9 Tf
+0 -14 Td (? Unmet mental health need - stress/symptoms [Substance use & mental health]: avg |r| 0.149.) Tj
+/F1 9 Tf
+0 -14 Td (  Excluded from heatmap because avg |r| = 0.149, below the 0.15 threshold; correlation is too) Tj
+/F1 9 Tf
+0 -14 Td (  weak or unstable for the visual. Rate measure preferred over count) Tj
+/F1 9 Tf
+0 -14 Td (? Alcohol-induced mortality rate [Substance use & mental health]: avg |r| 0.143. Excluded from) Tj
+/F1 9 Tf
+0 -14 Td (  heatmap because avg |r| = 0.143, below the 0.15 threshold; correlation is too weak or) Tj
+/F1 9 Tf
+0 -14 Td (  unstable for the visual. Mortality rate) Tj
+/F1 9 Tf
+0 -14 Td (? No checkup / preventive care avoidance [Access & clinical context]: avg |r| 0.126. Excluded) Tj
+/F1 9 Tf
+0 -14 Td (  from heatmap because avg |r| = 0.126, below the 0.15 threshold; correlation is too weak or) Tj
+/F1 9 Tf
+0 -14 Td (  unstable for the visual. Rate measure preferred over count) Tj
+/F1 9 Tf
+0 -14 Td (? Recreational / illicit drug use prevalence [Substance use & mental health]: avg |r| 0.095.) Tj
+/F1 9 Tf
+0 -14 Td (  Excluded from heatmap because avg |r| = 0.095, below the 0.15 threshold; correlation is too) Tj
+/F1 9 Tf
+0 -14 Td (  weak or unstable for the visual. Rate measure preferred over count) Tj
+/F1 9 Tf
+0 -14 Td (? Obesity prevalence [Health & environment]: avg |r| 0.082. Excluded from heatmap because avg) Tj
+/F1 9 Tf
+0 -14 Td (  |r| = 0.082, below the 0.15 threshold; correlation is too weak or unstable for the visual.) Tj
+/F1 9 Tf
+0 -14 Td (  Rate measure preferred over count) Tj
+/F1 9 Tf
+0 -14 Td (? Routine checkup / preventive care prevalence [Access & clinical context]: avg |r| 0.073.) Tj
+/F1 9 Tf
+0 -14 Td (  Excluded from heatmap because avg |r| = 0.073, below the 0.15 threshold; correlation is too) Tj
+/F1 9 Tf
+0 -14 Td (  weak or unstable for the visual. Rate measure preferred over count) Tj
+/F1 9 Tf
+0 -14 Td (? Binge drinking / alcohol behavior prevalence [Substance use & mental health]: avg |r| 0.070.) Tj
+/F1 9 Tf
+0 -14 Td (  Excluded from heatmap because avg |r| = 0.070, below the 0.15 threshold; correlation is too) Tj
+/F1 9 Tf
+0 -14 Td (  weak or unstable for the visual. Rate measure preferred over count) Tj
+/F1 9 Tf
+0 -14 Td (? Unmet mental health need - adults [Substance use & mental health]: avg |r| 0.067. Excluded) Tj
+/F1 9 Tf
+0 -14 Td (  from heatmap because avg |r| = 0.067, below the 0.15 threshold; correlation is too weak or) Tj
+/F1 9 Tf
+0 -14 Td (  unstable for the visual. Rate measure preferred over count) Tj
+/F1 8 Tf
+0 -18 Td (Threshold: average |r| >= 0.15 | Page 7) Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 4092 >>
+stream
+BT
+/F1 16 Tf
+72 760 Td (Full Selected Indicator Heatmap) Tj
+0 -28 Td
+/F1 12 Tf
+0 -8 Td (Included Indicators \(5\)) Tj
+0 -18 Td
+/F1 9 Tf
+0 -14 Td (? PM2.5 concentration [Housing & neighborhood]: avg |r| 0.262. Included because avg |r| =) Tj
+/F1 9 Tf
+0 -14 Td (  0.262, meeting the >= 0.15 exploratory signal threshold. Direction is negative. Chicago) Tj
+/F1 9 Tf
+0 -14 Td (  Health Atlas Data Download - Community areas \(8\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Primary care provider \(%\) [Healthcare access]: avg |r| 0.188. Included because avg |r| =) Tj
+/F1 9 Tf
+0 -14 Td (  0.188, meeting the >= 0.15 exploratory signal threshold. Direction is negative. Chicago) Tj
+/F1 9 Tf
+0 -14 Td (  Health Atlas Data Download - Community areas \(6\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Rent-burdened households \(%\) [Housing & neighborhood]: avg |r| 0.186. Included because avg) Tj
+/F1 9 Tf
+0 -14 Td (  |r| = 0.186, meeting the >= 0.15 exploratory signal threshold. Direction is positive.) Tj
+/F1 9 Tf
+0 -14 Td (  Chicago Health Atlas Data Download - Community areas \(7\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Uninsured rate \(%\) [Healthcare access]: avg |r| 0.177. Included because avg |r| = 0.177,) Tj
+/F1 9 Tf
+0 -14 Td (  meeting the >= 0.15 exploratory signal threshold. Direction is positive. Chicago Health) Tj
+/F1 9 Tf
+0 -14 Td (  Atlas Data Download - Community areas \(6\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Median household income [Economic factors]: avg |r| 0.154. Included because avg |r| = 0.154,) Tj
+/F1 9 Tf
+0 -14 Td (  meeting the >= 0.15 exploratory signal threshold. Direction is negative. Chicago Health) Tj
+/F1 9 Tf
+0 -14 Td (  Atlas Data Download - Community areas \(12\).xlsx) Tj
+0 -10 Td
+/F1 12 Tf
+0 -8 Td (Excluded Indicators \(11\)) Tj
+0 -18 Td
+/F1 9 Tf
+0 -14 Td (? Eviction rate \(%\) [Housing & neighborhood]: avg |r| 0.147. Excluded from heatmap because avg) Tj
+/F1 9 Tf
+0 -14 Td (  |r| = 0.147, below the 0.15 threshold; correlation is too weak or unstable for the visual.) Tj
+/F1 9 Tf
+0 -14 Td (  Chicago Health Atlas Data Download - Community areas \(7\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Poverty rate \(%\) [Economic factors]: avg |r| 0.146. Excluded from heatmap because avg |r| =) Tj
+/F1 9 Tf
+0 -14 Td (  0.146, below the 0.15 threshold; correlation is too weak or unstable for the visual. Chicago) Tj
+/F1 9 Tf
+0 -14 Td (  Health Atlas Data Download - Community areas \(12\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Unemployment rate \(%\) [Economic factors]: avg |r| 0.133. Excluded from heatmap because avg) Tj
+/F1 9 Tf
+0 -14 Td (  |r| = 0.133, below the 0.15 threshold; correlation is too weak or unstable for the visual.) Tj
+/F1 9 Tf
+0 -14 Td (  Chicago Health Atlas Data Download - Community areas \(12\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Environmental justice impact \(%\) [Housing & neighborhood]: avg |r| 0.122. Excluded from) Tj
+/F1 9 Tf
+0 -14 Td (  heatmap because avg |r| = 0.122, below the 0.15 threshold; correlation is too weak or) Tj
+/F1 9 Tf
+0 -14 Td (  unstable for the visual. Chicago Health Atlas Data Download - Community areas \(8\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Physical inactivity \(%\) [Behavioral risk factors]: avg |r| 0.106. Excluded from heatmap) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.106, below the 0.15 threshold; correlation is too weak or unstable for) Tj
+/F1 9 Tf
+0 -14 Td (  the visual. Chicago Health Atlas Data Download - Community areas \(12\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Hardship index [Economic factors]: avg |r| 0.105. Excluded from heatmap because avg |r| =) Tj
+/F1 9 Tf
+0 -14 Td (  0.105, below the 0.15 threshold; correlation is too weak or unstable for the visual. Chicago) Tj
+/F1 9 Tf
+0 -14 Td (  Health Atlas Data Download - Community areas \(12\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Smoking prevalence \(%\) [Behavioral risk factors]: avg |r| 0.085. Excluded from heatmap) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.085, below the 0.15 threshold; correlation is too weak or unstable for) Tj
+/F1 9 Tf
+0 -14 Td (  the visual. Chicago Health Atlas Data Download - Community areas \(13\).xlsx) Tj
+/F1 8 Tf
+0 -18 Td (Threshold: average |r| >= 0.15 | Page 8) Tj
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 1462 >>
+stream
+BT
+/F1 16 Tf
+72 760 Td (Full Selected Indicator Heatmap \(continued\)) Tj
+0 -28 Td
+/F1 9 Tf
+0 -14 Td (? Obesity rate \(%\) [Behavioral risk factors]: avg |r| 0.082. Excluded from heatmap because avg) Tj
+/F1 9 Tf
+0 -14 Td (  |r| = 0.082, below the 0.15 threshold; correlation is too weak or unstable for the visual.) Tj
+/F1 9 Tf
+0 -14 Td (  Chicago Health Atlas Data Download - Community areas \(10\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Overcrowded housing \(%\) [Housing & neighborhood]: avg |r| 0.080. Excluded from heatmap) Tj
+/F1 9 Tf
+0 -14 Td (  because avg |r| = 0.080, below the 0.15 threshold; correlation is too weak or unstable for) Tj
+/F1 9 Tf
+0 -14 Td (  the visual. Chicago Health Atlas Data Download - Community areas \(7\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Preventive care: routine checkup \(%\) [Healthcare access]: avg |r| 0.073. Excluded from) Tj
+/F1 9 Tf
+0 -14 Td (  heatmap because avg |r| = 0.073, below the 0.15 threshold; correlation is too weak or) Tj
+/F1 9 Tf
+0 -14 Td (  unstable for the visual. Chicago Health Atlas Data Download - Community areas \(6\).xlsx) Tj
+/F1 9 Tf
+0 -14 Td (? Per capita income [Economic factors]: avg |r| 0.070. Excluded from heatmap because avg |r| =) Tj
+/F1 9 Tf
+0 -14 Td (  0.070, below the 0.15 threshold; correlation is too weak or unstable for the visual. Chicago) Tj
+/F1 9 Tf
+0 -14 Td (  Health Atlas Data Download - Community areas \(12\).xlsx) Tj
+/F1 8 Tf
+0 -18 Td (Threshold: average |r| >= 0.15 | Page 9) Tj
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R] /Count 9 >>
+endobj
+21 0 obj
+<< /Type /Catalog /Pages 20 0 R >>
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000001793 00000 n 
+0000001920 00000 n 
+0000004602 00000 n 
+0000004729 00000 n 
+0000008644 00000 n 
+0000008771 00000 n 
+0000012839 00000 n 
+0000012966 00000 n 
+0000014716 00000 n 
+0000014845 00000 n 
+0000018964 00000 n 
+0000019093 00000 n 
+0000022855 00000 n 
+0000022984 00000 n 
+0000027129 00000 n 
+0000027258 00000 n 
+0000028773 00000 n 
+0000028902 00000 n 
+0000029013 00000 n 
+trailer
+<< /Size 22 /Root 21 0 R >>
+startxref
+29064
+%%EOF
